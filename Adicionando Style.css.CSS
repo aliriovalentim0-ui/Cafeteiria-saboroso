@@ -1,0 +1,56 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+form input, focus, form textarea:focus {
+    outline: none;
+}
+:root {
+    color: #4e342e;
+    color: #d4af37;
+}
+body {
+    background-color: #111 ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+main {
+    background-color: rgba(0, 0, 0, 0, 6);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.galaria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.galaria {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
