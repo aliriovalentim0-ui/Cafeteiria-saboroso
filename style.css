@@ -1,9 +1,9 @@
-boy {
+body {
     background-color: #f5e6c8;
-    font-family: center;
+    font-family: arial, sans-serif;
     color: #3e2723;
     max-width: 900px;
-    margin: 0;
+    margin: 0 auto;
     padding: 20px;
 }
 h1 {
