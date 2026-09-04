@@ -15,7 +15,6 @@ font-weight: bold;
 .menu a: {
     color: #a67c52;
 }
-
 body {
     background-color: #f5e6c8;
     font-family: Arial, sans-serif;
@@ -31,7 +30,6 @@ footer {
     padding: 20px;
     margin: 40px;
 }
-
 .card-imagem {
     border: 3px solid #3e2723;
     border-radius: 15px;
@@ -40,13 +38,11 @@ footer {
     max-width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
 }
-
 .card-imagem img {
     width: 100%;
     border-radius: 10px;
     display: block;
 }
-
 .card-produto {
     border: 2px solid #3e2723;
     border-radius: 15px;
@@ -57,18 +53,15 @@ footer {
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 1);
 }
-
 .card-produto img {
     width: 100;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
 .card-produto h3 {
     color: #3e2723;
     margin: 10px 0 5px 0;
 }
-
 .preco {
     font-size: 20px;
     font-weight: bold;
